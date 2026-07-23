@@ -2,8 +2,9 @@ const path = require('path');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: 'export',
     images: {
-        unoptimized: true,      // <--- Agar komponen next/image tidak error karena server optimization mati
+        unoptimized: true,
     },
 };
 
